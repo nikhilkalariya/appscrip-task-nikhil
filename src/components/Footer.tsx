@@ -44,11 +44,11 @@ const Footer: React.FC = () => {
                       </p>
                   </div>
               </div>
-              <hr className="text-white my-5" />
+              <hr className="text-white h-2  my-5" />
               <div className="flex flex-col gap-x-4 lg:flex-row lg:justify-between">
                   <div className="grid lg:grid-cols-2 lg:gap-x-6 text-white lg:w-3/5">
                       <div className=''>
-                          <h5 className="  text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none">mettā muse</h5>
+                          <h5 className="flex justify-between text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none">mettā muse <img className='lg:hidden' src="/assets/arrow-right.svg"/></h5>
                           <ul className="hidden lg:block text-white">
                               <li>
                                   <a href="#" className="text-xs">
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
                           </ul>
                       </div>
                       <div className=''>
-                      <h5 className="text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none">Quick Links</h5>
+                      <h5 className="flex justify-between text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none">Quick Links <img className='block lg:hidden' src="/assets/arrow-right.svg"/></h5>
                       <ul className=" hidden lg:block text-white">
                           
                           <li>
@@ -110,8 +110,8 @@ const Footer: React.FC = () => {
                       </div>
                   </div>
                   <div className="flex flex-col justify-start text-white lg:w-2/5">
-                      <div className='text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none'>FOLLOW US</div>
-                      <div className="flex gap-2 my-5">
+                      <div className="flex justify-between text-xl font-bold my-1 border-b-white border-b-[1px] lg:border-none">FOLLOW US <img className='block lg:hidden' src="/assets/arrow-right.svg"/></div>
+                      <div className=" hidden lg:flex gap-2 my-5">
                           <a href="#">
                               <img className="" src="/assets/insta.svg" />
                           </a>
@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
                               <img className="" src="/assets/linkdin.svg" />
                           </a>
                       </div>
-                      <div>mettā muse ACCEPTES</div>
+                      <div className="my-2">mettā muse ACCEPTES</div>
                       <div className="flex gap-2 my-2">
                           <a href="">
                               <img src="/assets/googlepay.svg" />
