@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                             >
                                 <img src="/assets/shopping-bag.svg" />
                             </Link>
-                            <div className="hidden lg:flex">
+                            <div className="hidden lg:flex lg:space-x-2">
                             <Link
                                 href="/cart"
                                 className="text-gray-600 text-base font-bold hover:text-gray-900"

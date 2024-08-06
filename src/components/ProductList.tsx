@@ -119,7 +119,7 @@ const ProductList: React.FC = () => {
                         value={sortOption}
                         onChange={handleSortChange}
                     >
-                        <option>Recommendation</option>
+                        <option selected>Recommendation</option>
                         <option>Price: Low to High</option>
                         <option>Price: High to Low</option>
                     </select>
@@ -187,7 +187,7 @@ const ProductList: React.FC = () => {
                                 alt={product.title}
                                 className="w-full h-48 object-fill mb-4"
                             />
-                            <div className="flex gap-5">
+                            <div className="flex justify-between">
                                 <div className="flex flex-col gap-2 h-14 overflow-y-hidden">
                                     <h3 className="text-lg font-bold text-wrap">
                                         {product.title}
@@ -196,7 +196,7 @@ const ProductList: React.FC = () => {
                                         ${product.price}
                                     </p>
                                 </div>
-                                <img src="/assets/heart.svg" />
+                                <img className="flex items-center" src="/assets/heart.svg" />
                             </div>
                         </div>
                     ))}
